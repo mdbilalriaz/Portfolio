@@ -1,0 +1,82 @@
+/* reset styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* header styles */
+header {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container1 {
+   max-width: 1000px;
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+ }
+h1 {
+  font-size: 2em;
+  margin: 0;
+  color: blue;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111111;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+main {
+  padding: 40px,0;
+  background-image: url("background.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+main h2{
+   width:100%;
+}
+main p{
+   width: 100%;
+}
+h3{
+   padding-top: 20px;
+   color: blue;
+}
+
+
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon {
+  margin: 0 10px;
+}
+
+.icon svg {
+  width: 30px;
+  height: 30px;
+  fill: #333;
+}
+
+.svg {
+  width: 30px;
+  height: 30px;
+}
