@@ -543,3 +543,50 @@ input
   border: 1px solid #CFD8DC;
   background-color: #FFFFFF;
 }
+.navbar {
+  display: none; 
+  background-color: #ffffff; 
+  top: 60px;
+  position:absolute;
+  width: 140px; 
+  border-radius: 0px;
+  border: 1px solid #6070FF; 
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0px; 
+  margin: 0; 
+}
+
+
+.navbar li {
+  margin: 0px 0; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+
+.navbar a {
+  color: #6070FF; 
+  text-decoration: none; 
+  padding: 3px 15px; 
+  display: block; 
+}
+
+
+
+.navbar.open {
+  display: block; 
+}
+
+
+.cross svg {
+  height: 12px; 
+  width: 12px; 
+  cursor: pointer; 
+  transition: transform 0.3s ease; 
+  margin-left: 120px; 
+  margin-top: 20px;
+}
