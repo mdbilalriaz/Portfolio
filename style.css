@@ -546,10 +546,11 @@ input
 .navbar {
   display: none; 
   background-color: #ffffff; 
-  position: absolute;
-  top: 70px;
+  top: 60px;
+  position:absolute;
   width: 140px; 
-  border: 1px solid #6070FF;  
+  border-radius: 0px;
+  border: 1px solid #6070FF; 
 }
 
 .navbar ul {
@@ -582,9 +583,10 @@ input
 
 
 .cross svg {
-  height: 15px; 
-  width: 15px; 
+  height: 12px; 
+  width: 12px; 
   cursor: pointer; 
   transition: transform 0.3s ease; 
   margin-left: 120px; 
+  margin-top: 20px;
 }
