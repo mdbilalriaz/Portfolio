@@ -543,3 +543,66 @@ input
   border: 1px solid #CFD8DC;
   background-color: #FFFFFF;
 }
+/* Navbar styles */
+.navbar {
+  display: none; /* Hidden initially */
+  background-color: #ffffff; /* White background */
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  width: 200px; /* Increased width for better spacing */
+  border: 1px solid #6070FF; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for opening/closing */
+}
+
+/* List styles */
+.navbar ul {
+  list-style: none;
+  padding: 15px; /* Increased padding for more space */
+  margin: 0; /* Reset margin */
+}
+
+/* List item styles */
+.navbar li {
+  margin: 15px 0; /* Increased margin for better spacing */
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Space out children */
+  align-items: center; /* Center align items vertically */
+}
+
+/* Link styles */
+.navbar a {
+  color: #6070FF; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Padding for clickable area */
+  display: block; /* Make the entire area clickable */
+  border-radius: 4px; /* Rounded corners for links */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+  background-color: #f0f8ff; /* Light blue background on hover */
+  color: #003366; /* Darker text color on hover */
+}
+
+/* Open class to show the navbar */
+.navbar.open {
+  display: block; /* Show navbar when open */
+}
+
+/* Cross icon styles */
+.cross svg {
+  height: 25px; /* Adjust height */
+  width: 25px; /* Adjust width */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: transform 0.3s ease; /* Smooth transform for the icon */
+  margin-left: 10px; /* Space between text and icon */
+}
+
+/* Cross icon hover effect */
+.cross svg:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+}
